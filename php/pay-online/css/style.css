@@ -1,0 +1,307 @@
+.header {
+    background-image: url(../image/headerbg.png);
+    color: rgba(14, 77, 33, 0.6);
+    margin-bottom: -30px;
+}
+
+.header1 {
+    height: 20px;
+    background: rgba(216, 216, 216, 0.6);
+    color: rgba(14, 77, 33, 0.6);
+}
+
+.header-menu__item {
+    border-right: 1px black solid;
+}
+
+.header-menu .header-menu__item:nth-child(3) {
+    border: none;
+}
+
+.header-menu:nth-child(2) .header-menu__item:nth-child(2) {
+    border: none;
+}
+
+.header-logo {
+    height: 100px;
+    margin: 30px 0px;
+    padding-bottom: 10px;
+    margin-left: 125px;
+}
+
+.dropdown {
+    list-style: none;
+    float: left;
+    padding: 8px;
+    margin-right: 60px;
+}
+
+.dropdown:hover {
+    background-color: rgb(5, 61, 27);
+    color: white;
+}
+
+.background-ul {
+    background-color: rgb(5, 61, 27);
+    float: right;
+    position: absolute;
+    margin-left: 400px;
+}
+
+nav li ul {
+    display: none;
+}
+
+nav li:hover ul {
+    display: block;
+    margin-top: 15px;
+}
+
+nav li:hover ul li ul {
+    display: none;
+}
+
+nav li:hover ul li:hover>ul {
+    display: block;
+    margin: 0px;
+    margin-left: 136px;
+    margin-top: -28px;
+}
+
+nav ul li:hover ul li:hover {
+    background-color: rgb(5, 61, 27);
+}
+
+nav ul li:hover ul li:hover ul li {
+    color: white;
+}
+
+.menu {
+    color: white;
+    height: 40px;
+    background-color: rgb(8, 99, 43);
+    z-index: 8;
+}
+
+
+/* body */
+
+.body {
+    background-image: url(../image/bg_pattern.jpg);
+    height: max-content;
+    z-index: 0;
+}
+
+.banner {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    background-image: url(../image/lbcenter.png);
+    background-repeat: no-repeat;
+    background-position-x: 480px;
+    height: 80px;
+    background-position-y: 0px;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.product-item {
+    display: flex;
+    justify-content: space-between;
+    z-index: 33333;
+    position: absolute;
+}
+
+.bookshelf {
+    height: max-content;
+    z-index: 1;
+    margin-top: 25px;
+}
+
+.book {
+    width: 160px;
+    height: 250px;
+    margin-right: 30px;
+}
+
+.product-item .dropdown-product :nth-child(2) {
+    display: none;
+}
+
+.product-item .dropdown-product:hover :nth-child(2) {
+    display: block;
+}
+
+.btn-buy {
+    background-image: url(../image/book_button_bg.png);
+    background-repeat: no-repeat;
+    background-size: 360px;
+    color: white;
+    width: 200px;
+    font-size: 14px;
+}
+
+.booktitle {
+    background-image: url(../image/headerbg.png);
+    margin: 10px;
+}
+
+
+/* Code FOOTER */
+
+.footer {
+    background-image: url(../image/headerbg.png);
+}
+
+.image-footer {
+    width: 20px;
+    height: 25px;
+}
+
+.contact-item {
+    border-bottom: 1px black solid;
+    margin-right: 110px;
+}
+
+.text-footer {
+    margin-left: 28px;
+    margin-top: 12px;
+    position: absolute;
+}
+
+.contact-list {
+    margin: 30px 0px 20px 200px;
+}
+
+.copyright {
+    background-image: url(../image/menubg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 200px;
+    color: white;
+}
+
+.text_info {
+    margin-bottom: -5px;
+}
+
+.body-detail {
+    background-image: url(./image/headerbg.png);
+    margin: 10px 0px 20px 100px;
+}
+
+
+/* Code form Thanh toán */
+
+.form-pay {
+    margin-top: 10px;
+}
+
+.payOnline {
+    position: relative;
+    display: none;
+    height: max-content;
+}
+
+.pay-online {
+    width: 100%;
+}
+
+.pay-body__header {
+    width: 100%;
+    border: 1px black solid;
+    border-right: none;
+}
+
+.pay-body__header-text {
+    font-size: 16px;
+    margin-top: 20px;
+    position: absolute;
+    width: 100%;
+}
+
+.payOffline {
+    background-color: rgb(214, 230, 230);
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 60px;
+    display: block;
+}
+
+.payOnline {
+    background-color: rgb(214, 230, 230);
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 60px;
+    display: none;
+}
+
+.pay-body__receiver {
+    border: 1px rgb(94, 91, 91) solid;
+    background-color: rgb(243, 223, 223);
+}
+
+.pay-body__receiver-text {
+    opacity: 0.7;
+}
+
+.info__text {
+    justify-content: flex-start;
+}
+
+.info__profile {
+    float: right;
+}
+
+.pay-body__receiver-info {
+    width: 100%;
+}
+
+.table_reseiver {
+    width: 100%;
+}
+
+.table_reseiver-td {
+    width: 100px;
+}
+
+.table__th {
+    text-align: center;
+    width: 200px;
+}
+
+.table__th-name {
+    text-align: center;
+    width: 400px;
+}
+
+.product__info {
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    color: rgb(224, 66, 8);
+}
+
+.btn__submit {
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+    border-radius: 6px;
+}
+
+.btn__return {
+    color: white;
+    background-color: rgb(250, 132, 89);
+    border: none;
+    border-radius: 6px;
+}
+
+.cart {
+    margin-top: 20px;
+}

@@ -1,0 +1,212 @@
+.header {
+    background-image: url(../image/headerbg.png);
+    color: rgba(14, 77, 33, 0.6);
+    margin-bottom: -30px;
+}
+
+.header1 {
+    height: 20px;
+    background: rgba(216, 216, 216, 0.6);
+    color: rgba(14, 77, 33, 0.6);
+}
+
+.header-menu__item {
+    border-right: 1px black solid;
+}
+
+.header-menu .header-menu__item:nth-child(3) {
+    border: none;
+}
+
+.header-menu:nth-child(2) .header-menu__item:nth-child(2) {
+    border: none;
+}
+
+.header-logo {
+    height: 100px;
+    margin: 30px 0px;
+    padding-bottom: 10px;
+    margin-left: 125px;
+}
+
+.dropdown {
+    list-style: none;
+    float: left;
+    padding: 8px;
+    margin-right: 60px;
+}
+
+.dropdown:not(:nth-child(5)):hover {
+    background-color: rgb(5, 61, 27);
+    color: white;
+}
+
+.background-ul {
+    background-color: rgb(5, 61, 27);
+    float: right;
+    position: absolute;
+    margin-left: 400px;
+}
+
+nav li ul {
+    display: none;
+}
+
+nav li:hover ul {
+    display: block;
+    margin-top: 15px;
+}
+
+nav li:hover ul li ul {
+    display: none;
+}
+
+nav li:hover ul li:hover>ul {
+    display: block;
+    margin: 0px;
+    margin-left: 136px;
+    margin-top: -28px;
+}
+
+nav ul li:hover ul li:hover {
+    background-color: rgb(5, 61, 27);
+}
+
+nav ul li:hover ul li:hover ul li {
+    color: white;
+}
+
+.menu {
+    color: white;
+    height: 40px;
+    background-color: rgb(8, 99, 43);
+    z-index: 8;
+}
+
+
+/* body */
+
+.body {
+    background-image: url(../image/bg_pattern.jpg);
+    height: max-content;
+    z-index: 0;
+}
+
+.banner {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    background-image: url(../image/lbcenter.png);
+    background-repeat: no-repeat;
+    background-position-x: 480px;
+    height: 80px;
+    background-position-y: 0px;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    height: max-content;
+}
+
+.product-item {
+    background: url(../image/book_bg.png);
+    margin: 10px auto 0;
+    padding: 0 50px;
+    width: 890px;
+}
+
+.bookshelf {
+    height: max-content;
+    z-index: 1;
+    margin-top: 25px;
+}
+
+.books {
+    float: left;
+    margin: 0 10px;
+    padding: 5px 0 71px;
+    position: relative;
+    height: 306px;
+    list-style: none;
+}
+
+.books {
+    display: block;
+}
+
+.book {
+    width: 149px;
+    height: 226px;
+}
+
+.product-item .dropdown-product :nth-child(2) {
+    display: none;
+}
+
+.product-item .dropdown-product:hover :nth-child(2) {
+    display: block;
+}
+
+.btn-buy {
+    background-image: url(../image/book_button_bg.png);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    color: white;
+    width: 227px;
+    font-size: 14px;
+    margin-left: -40px;
+}
+
+.booktitle {
+    background-image: url(../image/headerbg.png);
+    margin: -226px;
+    width: 226px;
+    display: none;
+}
+
+
+/* Code FOOTER */
+
+.footer {
+    background-image: url(../image/headerbg.png);
+}
+
+.image-footer {
+    width: 20px;
+    height: 25px;
+}
+
+.contact-item {
+    border-bottom: 1px black solid;
+    margin-right: 110px;
+}
+
+.text-footer {
+    margin-left: 28px;
+    margin-top: 12px;
+    position: absolute;
+}
+
+.contact-list {
+    margin: 30px 0px 20px 200px;
+}
+
+.copyright {
+    background-image: url(../image/menubg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 200px;
+    color: white;
+}
+
+.text_info {
+    margin-bottom: -5px;
+}
+
+.books:hover .booktitle {
+    display: block!important;
+}

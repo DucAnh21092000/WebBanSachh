@@ -1,0 +1,83 @@
+  body {
+      height: 100%;
+      width: fit-content;
+      position: relative;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-image: url(../image/bg-01.jpg);
+  }
+  
+  .main_login {
+      margin: 20px 0px 20px 480px;
+      background-color: #ffffff;
+      color: white;
+      border-radius: 20px;
+  }
+  
+  .form-group {
+      width: 400px;
+  }
+  
+  .button {
+      background-image: url(../image/bg-01.jpg);
+      width: 300px;
+      border-radius: 30px;
+  }
+  
+  .circle {
+      background: #f363b7;
+      border-radius: 50%;
+      height: 2.2em;
+      width: 2.2em;
+      border: none;
+  }
+  
+  .td-form {
+      border-color: navy;
+  }
+  
+  .user {
+      background-image: url(https://png.pngtree.com/png-clipart/20191121/original/pngtree-user-login-or-authenticate-icon-on-gray-background-flat-icon-ve-png-image_5089976.jpg);
+      background-size: 8%;
+      background-repeat: no-repeat;
+      background-position-x: 10px;
+      background-position-y: 5px;
+      padding: 12px 0px 12px 40px;
+  }
+  
+  .email {
+      background-image: url(https://png.pngtree.com/png-clipart/20191120/original/pngtree-email-icon-png-image_5065641.jpg);
+      background-size: 8%;
+      background-repeat: no-repeat;
+      background-position-x: 10px;
+      background-position-y: 5px;
+      padding: 12px 10px 12px 60px;
+  }
+  
+  .password {
+      background-image: url(https://png.pngtree.com/png-clipart/20191120/original/pngtree-circle-password-icon-vectors-png-image_5053796.jpg);
+      background-size: 17%;
+      background-repeat: no-repeat;
+      background-position-y: -8px;
+      background-position-x: -5px;
+      padding: 12px 20px 12px 60px;
+  }
+  
+  .phone {
+      background-image: url(https://png.pngtree.com/png-clipart/20191120/original/pngtree-phone-icon-png-image_5065646.jpg);
+      background-size: 8%;
+      background-repeat: no-repeat;
+      background-position-y: 8px;
+      background-position-x: 8px;
+      padding: 12px 0px 12px 40px;
+  }
+  
+  .help-block {
+      display: none;
+  }
+  
+  .error-label {
+      display: list-item;
+      color: red;
+      font-size: 14px;
+  }

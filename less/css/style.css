@@ -1,0 +1,312 @@
+        .top {
+            display: flex;
+            flex-direction: row;
+            background-color: white;
+            color: black;
+            justify-content: space-between;
+            margin: 10px 0px 10px 0px;
+        }
+        
+        .btn_top {
+            height: px;
+            border-color: black;
+            color: black;
+            width: 100px;
+        }
+        
+        .search {
+            width: 300px;
+        }
+        
+        .top :hover {
+            color: red;
+        }
+        
+        @keyframes shop_name {
+            10% {
+                color: black;
+                margin: 10px 0px 0px 20px;
+            }
+            50% {
+                color: rgb(206, 6, 6);
+                margin: 10px 0px 0px 30px;
+            }
+            70% {
+                color: blue;
+            }
+            100% {
+                color: red;
+            }
+        }
+        
+        @-moz-keyframes shop_name {
+            10% {
+                color: red;
+            }
+            50% {
+                color: rgb(221, 46, 46);
+            }
+            70% {
+                color: blue;
+            }
+            100% {
+                color: red;
+            }
+        }
+        
+        @-o-keyframes shop_name {
+            10% {
+                color: red;
+            }
+            50% {
+                color: rgb(218, 52, 52);
+            }
+            70% {
+                color: blue;
+            }
+            100% {
+                color: red;
+            }
+        }
+        
+        @-webkit-keyframes shop_name {
+            10% {
+                color: red;
+            }
+            50% {
+                color: rgb(230, 31, 31);
+            }
+            70% {
+                color: blue;
+            }
+            100% {
+                color: red;
+            }
+        }
+        
+        @keyframes shop_name2 {
+            0% {
+                color: red;
+            }
+            10% {
+                color: rgb(117, 8, 8);
+            }
+            50% {
+                color: rgb(212, 41, 41);
+            }
+            70% {
+                color: rgb(235, 53, 29);
+            }
+            100% {
+                color: rgb(163, 12, 12)
+            }
+        }
+        
+        @-moz-keyframes shop_name2 {
+            0% {
+                color: red;
+            }
+            10% {
+                color: rgb(117, 8, 8);
+            }
+            50% {
+                color: rgb(212, 41, 41);
+            }
+            70% {
+                color: rgb(235, 53, 29);
+            }
+            100% {
+                color: rgb(163, 12, 12)
+            }
+        }
+        
+        @-o-keyframes shop_name2 {
+            0% {
+                color: red;
+            }
+            10% {
+                color: rgb(117, 8, 8);
+            }
+            50% {
+                color: rgb(212, 41, 41);
+            }
+            70% {
+                color: rgb(235, 53, 29);
+            }
+            100% {
+                color: rgb(163, 12, 12)
+            }
+        }
+        
+        @-webkit-keyframes shop_name2 {
+            0% {
+                color: red;
+            }
+            10% {
+                color: rgb(117, 8, 8);
+            }
+            50% {
+                color: rgb(212, 41, 41);
+            }
+            70% {
+                color: rgb(218, 60, 40);
+            }
+            100% {
+                color: rgb(163, 12, 12)
+            }
+        }
+        
+        .top__shop-name {
+            animation-name: shop_name;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            margin-left: 30px;
+            position: absolute;
+        }
+        
+        .main-header {
+            animation: shop_name2;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+        
+        .top .menu_translate {
+            width: 250px;
+        }
+        
+        .menu-contact {
+            display: flex;
+            flex-direction: row;
+            height: 40px;
+        }
+        
+        .menu-contact__menu-product {
+            border: none;
+            color: blanchedalmond;
+            margin-left: 10px;
+            width: 100%;
+            background-color: rgb(133, 248, 133);
+        }
+        
+        .menu-product__show {
+            background-color: rgb(133, 248, 133);
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding-bottom: 0px;
+        }
+        
+        .menu-contact__menuHotline {
+            background-color: rgb(133, 248, 133);
+            display: flex;
+            flex-direction: row;
+            height: 41px;
+        }
+        
+        .menu-product__btn {
+            height: 30px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .menu-product__btn-image {
+            margin-bottom: 9px;
+        }
+        
+        .menu-product__show-text {
+            color: rgb(8, 44, 8);
+        }
+        
+        .null {
+            background-color: white;
+            height: 27px;
+            display: flex;
+            align-items: center;
+            width: 1px;
+            margin: 7px 3px 0px 3px;
+        }
+        
+        .text {
+            margin: 10px 0px 0px 10px;
+            width: max-content;
+            color: rgb(247, 51, 83);
+        }
+        
+        .text-header {
+            color: rgb(112, 106, 106);
+        }
+        
+        .menu_2 {
+            display: flex;
+        }
+        
+        .menu-contact__menuHotLine-btnMenu {
+            margin-top: 10px;
+            width: 180px;
+        }
+        
+        .menuBook__menu {
+            margin: 7px 12px 0px -30px;
+        }
+        
+        .menuBook__menu-menuList {
+            list-style: none;
+        }
+        
+        .menuList__info {
+            width: 190px;
+            margin-top: 10px;
+        }
+        
+        .menuList__info-btn {
+            height: auto;
+            width: 163px;
+            display: flex;
+            justify-content: flex-start;
+        }
+        
+        .menu_4 {
+            width: 120px;
+            margin-top: 10px;
+        }
+        
+        .dropdown-toggle {
+            margin-top: 0px;
+        }
+        
+        .menu_book {
+            list-style: none;
+            float: left;
+        }
+        
+        .product {
+            width: 20%;
+        }
+        
+        .product__text-name {
+            color: rgb(88, 12, 12);
+        }
+        
+        #text-name {
+            color: black;
+        }
+        
+        .link:hover {
+            text-decoration: none;
+        }
+        
+        #all-product {
+            display: flex;
+            flex-direction: row;
+            flex-flow: row wrap;
+        }
+        
+        #all-product__product {
+            display: flex;
+            flex-direction: column;
+            margin-right: 20px;
+            border: 1px black solid;
+            margin-bottom: 20px;
+            margin-left: 20px;
+            width: 29%;
+        }

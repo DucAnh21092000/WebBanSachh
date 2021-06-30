@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags to make it mobile responsive-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Document</title>
+    <style>
+        .textcomplete {
+            display: none;
+        }
+        
+        .textmore {
+            color: navy;
+            font-size: 13px;
+            padding: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>Đức Anh
+        <li>Đẹp trai</li>
+    </ul>
+    <ul>List Khóa Học
+        <li id="list-courses"></li>
+    </ul>
+    <div class="d-flex ">
+        <label for=""> Name</label>
+        <input type="text" name="name">
+    </div>
+    <div class="d-flex">
+        <label for="">nội dung</label>
+        <div class="form-group">
+            <label for="textarea" class="col-sm-2 control-label">:</label>
+            <div class="col-sm-10 col-lg-12">
+                <textarea name="info" id="textarea" class="form-control" rows="3" required="required"></textarea>
+            </div>
+        </div>
+
+    </div>
+    <button class="create"> Tạo mới</button>
+    <div class="text2">
+        <span class="teaser">text goes here</span>
+        <span class="textcomplete"> this is the 
+        complete text being shown</span>
+        <span class="textmore" onclick="show()">Đọc thêm...</span>
+    </div>
+    <script>
+        var a = document.querySelector('.textmore');
+        var b = document.querySelector('.textcomplete');
+
+        function show() {
+            $('.textcomplete').toggle();
+            a.innerHTML = `Đọc thêm...`;
+            if (b.style.display == `inline`) {
+                a.innerHTML = `Ẩn bớt...`;
+            }
+        }
+    </script>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    <button class="goTop"> aaaaaaaaaaaaaaaa</button> c.
+    <div class="text-center  d-flex justify-content-center"> s</div>
+    <i class="fab fa-microphone-slash"></i> <i class="fas fa-creative-commons-pd-alt    "></i>
+    <i class="fa fa-key" aria-hidden="true"></i>
+    <!-- Optional JavaScript but it is better to add it-->
+    <!-- jQuery first,
+        then Popper.js,
+        then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js " integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js " integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV " crossorigin="anonymous "></script>
+    <script src="./f9.js"></script>
+</body>
+
+</html>
